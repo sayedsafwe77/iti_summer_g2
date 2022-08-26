@@ -1,0 +1,70 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+.action-buttons {
+    width: 15%;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    width: 80%;
+    background: #e1e1e1;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 30%;
+    height: 30%;
+}
+
+header .logo {
+    width: 20%;
+}
+
+header .menu {
+    width: 30%;
+}
+
+header .menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+footer {
+    background: #e1e1e1;
+    text-align: center;
+}
+
+.login {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 40%;
+    background: gray;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px red;
+    display: none;
+}
+
+.login form {
+    flex-direction: column;
+}
